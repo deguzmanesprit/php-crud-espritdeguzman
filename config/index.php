@@ -66,7 +66,7 @@
     <a href="read.php" class="nav-btn">✏️ Update Student</a>
     <a href="read.php" class="nav-btn">🗑️ Delete Student</a>
 
-    <div class="footer">Developed by: Your Name</div>
+    <div class="footer">Developed by: Esprit De Guzman</div>
 </div>
 </body>
 </html>
