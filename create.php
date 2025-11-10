@@ -1,8 +1,7 @@
 <?php
-// Include database connection
+
 include 'config/db.php';
 
-// Initialize message variable
 $message = "";
 
 if (isset($_POST['submit'])) {
@@ -12,7 +11,6 @@ if (isset($_POST['submit'])) {
     $email = $_POST['email'];
     $contact = $_POST['contact'];
 
-    // SQL Query
     $sql = "INSERT INTO students (student_no, fullname, branch, email, contact) 
             VALUES ('$student_no', '$fullname', '$branch', '$email', '$contact')";
 
